@@ -7,8 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\MediCare.Core\MediCare.Core.csproj" />
-    <ProjectReference Include="..\MediCare.Data\MediCare.Data.csproj" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="8.0.24" />
   </ItemGroup>
 
 </Project>
