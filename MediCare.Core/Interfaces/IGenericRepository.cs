@@ -12,6 +12,6 @@ namespace MediCare.Core.Interfaces
         public Task<T> Add(T entity);
         public Task Update(T entity);
         public Task Delete(TKey id);
-        public Task<IEnumerable<T>> GetAll();
+        public IQueryable<T> GetAll();
     }
 }

@@ -31,10 +31,9 @@ namespace MediCare.Data.Repositories
             _context.Set<T>().Remove(entry);
         }
 
-        public async Task<IEnumerable<T>> GetAll()
+        public IQueryable<T> GetAll()
         {
-            var entries = await _context.Set<T>().ToListAsync();
-            return entries;
+            return _context.Set<T>();
         }
 
         public async Task<T?> GetById(TKey id)
