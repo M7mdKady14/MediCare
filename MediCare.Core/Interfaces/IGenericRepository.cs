@@ -8,10 +8,10 @@ namespace MediCare.Core.Interfaces
 {
     public interface IGenericRepository<T, TKey>
     {
-        Task<T?> GetById(TKey id);
-        Task<T> Add(T entity);
-        Task Update(T entity);
-        Task Delete(TKey id);
-        Task<IEnumerable<T>> GetAll();
+        public Task<T?> GetById(TKey id);
+        public Task<T> Add(T entity);
+        public Task Update(T entity);
+        public Task Delete(TKey id);
+        public Task<IEnumerable<T>> GetAll();
     }
 }
