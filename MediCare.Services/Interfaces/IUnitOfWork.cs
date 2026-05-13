@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using MediCare.Core.Entities;
 
-namespace MediCare.Core.Interfaces
+namespace MediCare.Application.Interfaces
 {
     public interface IUnitOfWork
     {

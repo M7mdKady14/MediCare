@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MediCare.Core.Interfaces
+namespace MediCare.Application.Interfaces
 {
     public interface IGenericRepository<T, TKey>
     {
