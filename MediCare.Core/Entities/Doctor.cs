@@ -6,7 +6,7 @@ namespace MediCare.Core.Entities
     public class Doctor
     {
         public int Id { get; set; }
-        public int UserId { get; set; }
+        public string UserId { get; set; } = string.Empty;
         public ApplicationUser User { get; set; }
         public int SpecializationId { get; set; }
         public Specialization Specialization { get; set; }
