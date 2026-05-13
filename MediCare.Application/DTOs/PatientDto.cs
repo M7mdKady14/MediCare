@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MediCare.Core.DTOs
+namespace MediCare.Application.DTOs
 {
     public class PatientDto
     {
